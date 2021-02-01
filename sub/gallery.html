@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>G1972</title>
+    <meta name="description" content="DESCRIPTION">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/substyle.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <script src="../js/jquery.min.js"></script>
+   <script src="../js/common.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1><a href="../index.html"><img src="../img/logo.jpg" alt=""></a></h1>
+      <p>wedding & cafe</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../sub/about.html">About</a></li>
+        <li><a href="../sub/in.html">View</a></li>
+        <li><a href="../sub/gallery.html" style="font-weight: bold">Gallery</a></li>
+        <li><a href="../sub/menu.html">Menu</a></li>
+        <li><a href="../sub/location.html">Location</a></li>
+      </ul>
+    </nav>
+    <div class="modal-wrap">
+      <div class="gallery-modal">
+        <!-- 첫 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall1.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall1.jpg" alt="">
+          </div>
+        </div>
+        <!-- 두 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall2.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall2.jpg" alt="">
+          </div>
+        </div>
+        <!-- 세 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall3.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-modal">
+        <!-- 첫 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall4.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall4.jpg" alt="">
+          </div>
+        </div>
+        <!-- 두 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall5.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall5.jpg" alt="">
+          </div>
+        </div>
+        <!-- 세 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall6.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-modal">
+        <!-- 첫 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall7.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall7.jpg" alt="">
+          </div>
+        </div>
+        <!-- 두 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall8.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall8.jpg" alt="">
+          </div>
+        </div>
+        <!-- 세 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall9.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall9.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-modal">
+        <!-- 첫 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall10.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall10.jpg" alt="">
+          </div>
+        </div>
+        <!-- 두 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall11.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall11.jpg" alt="">
+          </div>
+        </div>
+        <!-- 세 번째 Modal -->
+        <div class="btn"><img src="../img/gall/gall12.jpg" alt=""></div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../img/gall/gall12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <address>대구광역시 중구 성내2동 달구벌대로 2017 G1972</address>
+      <!-- <p>tel. 010-5899-3563</p> -->
+      <p>Copyright© G1972 All Rights Reserved</p>
+    </footer>
+  </div>
+
+
+  <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+
+  // Modal을 가져옵니다.
+  var modals = document.getElementsByClassName("modal");
+  // Modal을 띄우는 클래스 이름을 가져옵니다.
+  var btns = document.getElementsByClassName("btn");
+  // Modal을 닫는 close 클래스를 가져옵니다.
+  var spanes = document.getElementsByClassName("close");
+  var funcs = [];
+
+  // Modal을 띄우고 닫는 클릭 이벤트를 정의한 함수
+  function Modal(num) {
+    return function() {
+      // 해당 클래스의 내용을 클릭하면 Modal을 띄웁니다.
+      btns[num].onclick =  function() {
+          modals[num].style.display = "block";
+          console.log(num);
+      };
+
+      // <span> 태그(X 버튼)를 클릭하면 Modal이 닫습니다.
+      spanes[num].onclick = function() {
+          modals[num].style.display = "none";
+      };
+    };
+  }
+
+  // 원하는 Modal 수만큼 Modal 함수를 호출해서 funcs 함수에 정의합니다.
+  for(var i = 0; i < btns.length; i++) {
+    funcs[i] = Modal(i);
+  }
+
+  // 원하는 Modal 수만큼 funcs 함수를 호출합니다.
+  for(var j = 0; j < btns.length; j++) {
+    funcs[j]();
+  }
+
+  // Modal 영역 밖을 클릭하면 Modal을 닫습니다.
+  window.onclick = function(event) {
+    if (event.target.className == "modal") {
+        event.target.style.display = "none";
+    }
+  };
+
+  function combtn(){
+    alert("Comming Soon");
+  }
+</script>
+</body>
+</html>

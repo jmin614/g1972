@@ -1,0 +1,76 @@
+@import "reset.css";
+html, body{ height: 100%; }
+
+/* wrap */
+.wrap{
+  min-height: 100%;
+  position: relative;
+  width: 1080px;
+  margin: 0 auto;  /*가운데정렬*/
+}
+@media screen and (max-height:800px) {
+  .wrap{
+    padding-bottom: 30px;
+  }
+}
+
+/* header */
+header{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+header img{
+  width: 200px;
+}
+header p{
+  color: rgba(0,0,0,.5);
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0,0,0,.5);
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  padding: 15px 200px;
+  margin-top: 30px;
+}
+
+/* main */
+#mainbanner{
+  margin: 50px 0px;
+  height: 600px;
+}
+#mainbanner li{
+  list-style:none;
+  top:0;
+  left:0;
+  display:none;
+  -webkit-display:block;
+}
+#mainbanner img{
+  width: 90%; height: 600px;
+  margin: 0 5%;
+}
+
+/* footer */
+footer{
+  left: 0; bottom: 0;
+  position: absolute;
+  width: 100%; padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* about */
+.about-banner{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-banner img{
+  width: 80%;
+  height: auto;
+}
